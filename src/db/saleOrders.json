@@ -1,0 +1,252 @@
+[
+  {
+    "customer_id": 11908,
+    "items": [
+      {
+        "sku_id": 248,
+        "price": 12,
+        "quantity": 12
+      }
+    ],
+    "paid": false,
+    "invoice_no": "Invoice - 1212121",
+    "invoice_date": "7/5/2024"
+  },
+  {
+    "customer_id": 11909,
+    "items": [
+      {
+        "sku_id": 252,
+        "price": 15,
+        "quantity": 8
+      },
+      {
+        "sku_id": 260,
+        "price": 10,
+        "quantity": 10
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212122",
+    "invoice_date": "8/5/2024"
+  },
+  {
+    "customer_id": 11910,
+    "items": [
+      {
+        "sku_id": 258,
+        "price": 20,
+        "quantity": 5
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212123",
+    "invoice_date": "9/5/2024"
+  },
+  {
+    "customer_id": 11911,
+    "items": [
+      {
+        "sku_id": 259,
+        "price": 18,
+        "quantity": 7
+      },
+      {
+        "sku_id": 260,
+        "price": 25,
+        "quantity": 3
+      }
+    ],
+    "paid": false,
+    "invoice_no": "Invoice - 1212124",
+    "invoice_date": "10/5/2024"
+  },
+  {
+    "customer_id": 11912,
+    "items": [
+      {
+        "sku_id": 252,
+        "price": 30,
+        "quantity": 4
+      },
+      {
+        "sku_id": 253,
+        "price": 22,
+        "quantity": 6
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212125",
+    "invoice_date": "11/5/2024"
+  },
+  {
+    "customer_id": 11913,
+    "items": [
+      {
+        "sku_id": 249,
+        "price": 28,
+        "quantity": 9
+      }
+    ],
+    "paid": false,
+    "invoice_no": "Invoice - 1212126",
+    "invoice_date": "12/5/2024"
+  },
+  {
+    "customer_id": 11914,
+    "items": [
+      {
+        "sku_id": 250,
+        "price": 35,
+        "quantity": 2
+      },
+      {
+        "sku_id": 251,
+        "price": 40,
+        "quantity": 1
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212127",
+    "invoice_date": "13/5/2024"
+  },
+  {
+    "customer_id": 11915,
+    "items": [
+      {
+        "sku_id": 256,
+        "price": 45,
+        "quantity": 3
+      },
+      {
+        "sku_id": 257,
+        "price": 50,
+        "quantity": 5
+      }
+    ],
+    "paid": false,
+    "invoice_no": "Invoice - 1212128",
+    "invoice_date": "14/5/2024"
+  },
+  {
+    "customer_id": 11916,
+    "items": [
+      {
+        "sku_id": 258,
+        "price": 55,
+        "quantity": 6
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212129",
+    "invoice_date": "15/5/2024"
+  },
+  {
+    "customer_id": 11917,
+    "items": [
+      {
+        "sku_id": 259,
+        "price": 60,
+        "quantity": 7
+      },
+      {
+        "sku_id": 260,
+        "price": 65,
+        "quantity": 8
+      }
+    ],
+    "paid": false,
+    "invoice_no": "Invoice - 1212130",
+    "invoice_date": "16/5/2024"
+  },
+  {
+    "customer_id": 11908,
+    "items": [
+      {
+        "sku_id": 248,
+        "price": 12,
+        "quantity": 12
+      },
+      {
+        "sku_id": 249,
+        "price": 20,
+        "quantity": 5
+      },
+      {
+        "sku_id": 252,
+        "price": 50,
+        "quantity": 5
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212131",
+    "invoice_date": "17/5/2024"
+  },
+  {
+    "customer_id": 11909,
+    "items": [
+      {
+        "sku_id": 249,
+        "price": 15,
+        "quantity": 8
+      },
+      {
+        "sku_id": 250,
+        "price": 10,
+        "quantity": 10
+      }
+    ],
+    "paid": false,
+    "invoice_no": "Invoice - 1212132",
+    "invoice_date": "18/5/2024"
+  },
+  {
+    "customer_id": 11910,
+    "items": [
+      {
+        "sku_id": 251,
+        "price": 20,
+        "quantity": 5
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212133",
+    "invoice_date": "19/5/2024"
+  },
+  {
+    "customer_id": 11911,
+    "items": [
+      {
+        "sku_id": 252,
+        "price": 18,
+        "quantity": 7
+      },
+      {
+        "sku_id": 253,
+        "price": 25,
+        "quantity": 3
+      }
+    ],
+    "paid": false,
+    "invoice_no": "Invoice - 1212134",
+    "invoice_date": "20/5/2024"
+  },
+  {
+    "customer_id": 11912,
+    "items": [
+      {
+        "sku_id": 254,
+        "price": 30,
+        "quantity": 4
+      },
+      {
+        "sku_id": 255,
+        "price": 22,
+        "quantity": 6
+      }
+    ],
+    "paid": true,
+    "invoice_no": "Invoice - 1212135",
+    "invoice_date": "21/5/2024"
+  }
+]

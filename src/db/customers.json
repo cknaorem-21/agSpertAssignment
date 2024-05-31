@@ -1,0 +1,152 @@
+[
+  {
+    "id": 9,
+    "customer": 11908,
+    "customer_profile": {
+      "id": 11908,
+      "name": "Ram",
+      "color": [182, 73, 99],
+      "email": "jesus_christ@church.com",
+      "pincode": "Mumbai",
+      "location_name": "Mumbai, Maharashtra, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 10,
+    "customer": 11909,
+    "customer_profile": {
+      "id": 11909,
+      "name": "Shyam",
+      "color": [255, 0, 0],
+      "email": "shyam@business.com",
+      "pincode": "Delhi",
+      "location_name": "Delhi, India",
+      "type": "B",
+      "profile_pic": null,
+      "gst": "GSTIN123456"
+    }
+  },
+  {
+    "id": 11,
+    "customer": 11910,
+    "customer_profile": {
+      "id": 11910,
+      "name": "Krishna",
+      "color": [0, 255, 0],
+      "email": "krishna@divine.com",
+      "pincode": "Mathura",
+      "location_name": "Mathura, Uttar Pradesh, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 12,
+    "customer": 11911,
+    "customer_profile": {
+      "id": 11911,
+      "name": "Ganesh",
+      "color": [0, 0, 255],
+      "email": "ganesh@elephant.com",
+      "pincode": "Mumbai",
+      "location_name": "Mumbai, Maharashtra, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 13,
+    "customer": 11912,
+    "customer_profile": {
+      "id": 11912,
+      "name": "Hanuman",
+      "color": [255, 255, 0],
+      "email": "hanuman@monkey.com",
+      "pincode": "Varanasi",
+      "location_name": "Varanasi, Uttar Pradesh, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 14,
+    "customer": 11913,
+    "customer_profile": {
+      "id": 11913,
+      "name": "Durga",
+      "color": [255, 0, 255],
+      "email": "durga@goddess.com",
+      "pincode": "Kolkata",
+      "location_name": "Kolkata, West Bengal, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 15,
+    "customer": 11914,
+    "customer_profile": {
+      "id": 11914,
+      "name": "Sita",
+      "color": [0, 255, 255],
+      "email": "sita@ayodhya.com",
+      "pincode": "Ayodhya",
+      "location_name": "Ayodhya, Uttar Pradesh, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 16,
+    "customer": 11915,
+    "customer_profile": {
+      "id": 11915,
+      "name": "Ravana",
+      "color": [128, 128, 128],
+      "email": "ravana@lanka.com",
+      "pincode": "Lanka",
+      "location_name": "Lanka, Sri Lanka",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 17,
+    "customer": 11916,
+    "customer_profile": {
+      "id": 11916,
+      "name": "Arjuna",
+      "color": [128, 0, 128],
+      "email": "arjuna@warrior.com",
+      "pincode": "Kurukshetra",
+      "location_name": "Kurukshetra, Haryana, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  },
+  {
+    "id": 18,
+    "customer": 11917,
+    "customer_profile": {
+      "id": 11917,
+      "name": "Dhritarashtra",
+      "color": [0, 128, 128],
+      "email": "dhritarashtra@blindking.com",
+      "pincode": "Hastinapur",
+      "location_name": "Hastinapur, Uttar Pradesh, India",
+      "type": "C",
+      "profile_pic": null,
+      "gst": ""
+    }
+  }
+]
