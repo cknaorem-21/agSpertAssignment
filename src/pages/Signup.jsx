@@ -33,10 +33,10 @@ const Signup = () => {
   return (
     <>
       <Flex
-        h="100vh"
+        minH="70vh"
         justify="center"
         align="center"
-        bgGradient="linear(to-br, blue.200, green.300)"
+        mt="2em"
       >
         <Box
           p={8}
@@ -44,7 +44,6 @@ const Signup = () => {
           borderColor="gray.300"
           borderRadius="xl"
           boxShadow="lg"
-          bgGradient="linear(to-br, yellow.100, teal.100)"
           w="30em"
         >
           <Heading textAlign="center">Sign Up</Heading>

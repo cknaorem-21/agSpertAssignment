@@ -6,6 +6,21 @@
         "sku_id": 248,
         "price": 12,
         "quantity": 12
+      },
+      {
+        "sku_id": 249,
+        "price": 12,
+        "quantity": 12
+      },
+      {
+        "sku_id": 252,
+        "price": 12,
+        "quantity": 12
+      },
+      {
+        "sku_id": 255,
+        "price": 12,
+        "quantity": 12
       }
     ],
     "paid": false,

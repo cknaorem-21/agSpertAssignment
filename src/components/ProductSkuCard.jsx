@@ -1,11 +1,21 @@
-import { Badge, Box, Divider, Flex, FormControl, FormHelperText, FormLabel, Input, Spacer } from "@chakra-ui/react";
-import { useContext, useEffect, useState } from "react";
+import {
+  Badge,
+  Box,
+  Divider,
+  Flex,
+  FormControl,
+  FormHelperText,
+  FormLabel,
+  Input,
+  Spacer,
+} from "@chakra-ui/react";
+import { memo, useContext, useEffect, useState } from "react";
 import { SaleOrderContext } from "../contexts/SaleOrderContext";
 
-const ProductSkuCard = ({ sku, idx }) => {
-  const {saleOrder, setSaleOrder} = useContext(SaleOrderContext);
-  const [sellingRate, setSellingRate] = useState(0)
-  const [totalItems, setTotalItems] = useState(0)
+const ProductSkuCard = ({ sku, idx, view, setFormData }) => {
+  const { saleOrder, setSaleOrder } = useContext(SaleOrderContext);
+  const [sellingRate, setSellingRate] = useState();
+  const [totalItems, setTotalItems] = useState();
 
   const getSellingRate = () => {
     if (!saleOrder) {
@@ -27,11 +37,43 @@ const ProductSkuCard = ({ sku, idx }) => {
     }
   };
 
-  // update price and quantity
+  const handleWheel = (e) => {
+    e.preventDefault(); // Prevent the default behavior of the wheel event
+  };
+
+  // update price and quantity (view/edit)
   useEffect(() => {
     setSellingRate(getSellingRate());
     setTotalItems(getTotalItems());
-  }, [saleOrder, sku.id]);
+  }, []);
+
+  useEffect(() => {
+    if (totalItems > 0) {
+      // setFormData
+      setFormData((prev) => {
+        const existingItem = prev.items.find(
+          (skuItem) => skuItem.sku_id === sku.id
+        );
+        if (existingItem)
+          return {
+            ...prev,
+            items: prev.items.map((item) =>
+              item.sku_id === sku.id
+                ? { ...item, price: sellingRate, quantity: totalItems }
+                : item
+            ),
+          };
+        else
+          return {
+            ...prev,
+            items: [
+              ...prev.items,
+              { sku_id: sku.id, price: sellingRate, quantity: totalItems },
+            ],
+          };
+      });
+    }
+  }, [sellingRate, totalItems, sku.id, setFormData]);
 
   return (
     <Box
@@ -57,22 +99,28 @@ const ProductSkuCard = ({ sku, idx }) => {
       <Flex gap="1em">
         <FormControl>
           <FormLabel>Selling Rate</FormLabel>
-          <Input 
+          <Input
             type="number"
             value={sellingRate}
-            onChange={()=> console.log("onChange")}
-            placeholder="Enter selling rate" 
+            min={0}
+            onChange={(e) => {
+              setSellingRate(e.target.value);
+            }}
+            placeholder="Enter selling rate"
+            readOnly={view}
           />
           {/* <FormHelperText>We'll never share your email.</FormHelperText> */}
         </FormControl>
 
         <FormControl>
           <FormLabel>Total Items</FormLabel>
-          <Input 
-            type="email"
+          <Input
+            type="number"
             value={totalItems}
-            onChange={()=> console.log("onChange")}
-            placeholder="Enter quantity" 
+            min={0}
+            onChange={(e) => setTotalItems(e.target.value)}
+            placeholder="Enter quantity"
+            readOnly={view}
           />
           {/* <FormHelperText>We'll never share your email.</FormHelperText> */}
         </FormControl>
@@ -93,4 +141,4 @@ const ProductSkuCard = ({ sku, idx }) => {
   );
 };
 
-export default ProductSkuCard;
+export default memo(ProductSkuCard);
